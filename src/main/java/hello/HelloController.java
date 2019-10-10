@@ -13,9 +13,9 @@ public class HelloController {
     
 	
 	Connection connection=daoUtil.getConnection();
+	public String sqlQuery="select * from accountsData;"; 
 	
-	
-    @RequestMapping("/")
+    @RequestMapping("/api")
     public String index() {
     	
     
